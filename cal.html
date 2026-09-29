@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vote Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: lightblue;">
+
+    <input type="text" name="" id="name1" placeholder="enter the name">
+
+    <br><br>
+
+    <input type="text" name="" id="name2" placeholder="enter his and her name">
+
+    <button onclick="cal()">submit</button>
+
+    <h2 id="res">Result</h2>
+
+    <script>
+        function cal() {
+            var name1 = document.getElementById("name1").value;
+            var name2 = document.getElementById("name2").value;
+            var per = Math.floor(Math.random() * 101);
+            var res = document.getElementById("res");
+
+            res.innerHTML = "The love score of " + name1 + " and " + name2 + " is: " + per + "%";
+        }
+    </script>
+
+</body>
+</html>

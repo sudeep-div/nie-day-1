@@ -1,0 +1,81 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+#smm{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border:10px groove rgb(68, 218, 151)
+}
+#king{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(52, 2, 2);
+    border:1px solid black;
+}
+#ni{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(222, 237, 121);
+    border:1px solid black;
+}
+#div3{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(91, 185, 91);
+    border:1px solid black;
+}
+#king:hover{
+    background-color: red;
+    box-shadow: 0 0 25px red;
+}
+#ni:hover{
+    background-color: yellow;
+    box-shadow: 0 0 25px yellow;
+}
+#div3:hover{
+    background-color: green;
+    box-shadow: 0 0 25px green;
+}
+
+form{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+    background-color: rgb(46, 42, 42);
+    backdrop-filter: blur(10px);
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
